@@ -3,7 +3,7 @@
 
 ##Projeto Veículos API
 
-Este projeto é uma resolução do desafio proposto pela Rentcars, o projeto é uma API para gerenciar informações de veículos.Ele fornece endpoints para criar, listar, atualizar e excluir veículos. A API foi construída usando [Node.js](https://nodejs.org/), [Express](https://expressjs.com/) e [Sequelize] com um banco de dados MySQL.
+Este projeto é uma resolução do desafio proposto pela Rentcars, o projeto é uma API para gerenciar informações de veículos.Ele fornece endpoints para criar, listar, atualizar e excluir veículos. A API foi construída usando [Node.js](https://nodejs.org/), [Express](https://expressjs.com/) e [Sequelize](https://sequelize.org/) com um banco de dados MySQL.
 
 ## Requisitos
 Antes de começar, você precisa ter os seguintes softwares instalados em sua máquina:
@@ -89,7 +89,7 @@ Rota: /veiculos
 Exemplo de uso:
 Nota: a estructura do objeto deve as seguintes caracteristicas:
 
-{
+{  
  "id": "cd99557a-8750-463e-a3fa-7f7bd9ecf37a",  
  "locadora": "Movida",  
  "modelo": "Virtus",  
