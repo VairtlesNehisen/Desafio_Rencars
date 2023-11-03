@@ -32,17 +32,16 @@ Siga as etapas abaixo para configurar e executar o projeto:
 
 1. Clone este repositório em sua máquina:
    ```sh
-git clone https://github.com/VairtlesNehisen/Desafio_Rencars.git
+   git clone https://github.com/VairtlesNehisen/Desafio_Rencars.git
 
 
 Navegue até a pasta do projeto:
-    ```sh
-cd veiculos-api
-
+   ```sh
+   cd veiculos-api
 
 Instale as dependências:
-    ```bash
-npm install
+   ```sh
+   npm install
 
 Execute o projeto:
     ```bash
@@ -65,7 +64,7 @@ Isso criará um contêiner Docker MySQL usando a configuração do arquivo docke
 Instale as Dependências
 Agora, instale as dependências do projeto:
    ```bash
-                npm install
+npm install
 
 Execute o Projeto
 Após configurar o banco de dados e instalar as dependências:
