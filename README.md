@@ -1,7 +1,7 @@
 # Desafio_Rencars
 
 
-##Projeto Veículos API
+## Projeto Veículos API
 
 Este projeto é uma resolução do desafio proposto pela Rentcars, o projeto é uma API para gerenciar informações de veículos.Ele fornece endpoints para criar, listar, atualizar e excluir veículos. A API foi construída usando [Node.js](https://nodejs.org/), [Express](https://expressjs.com/) e [Sequelize](https://sequelize.org/) com um banco de dados MySQL.
 
@@ -118,7 +118,7 @@ Exemplo de uso:
   "ano": 2024  
 }
 
-## Recomendo usar o insomnia para tester as rotas  
+## Recomendo usar o insomnia para testar as rotas  
 
  Certifique-se de parar o contêiner quando não estiver mais usando o projeto:
  docker-compose down
