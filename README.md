@@ -109,9 +109,9 @@ Rota: /veiculos/:id
 Exemplo de uso:
 
 {
-  "locadora": "Movida Atualizada",
-  "modelo": "Gol Novo",
-  "ano": 2024
+  "locadora": "Movida Atualizada",  
+  "modelo": "Gol Novo",  
+  "ano": 2024  
 }
 
  Certifique-se de parar o contêiner quando não estiver mais usando o projeto:
