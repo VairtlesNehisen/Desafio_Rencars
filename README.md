@@ -36,16 +36,16 @@ Siga as etapas abaixo para configurar e executar o projeto:
 
 
 Navegue até a pasta do projeto:
-   ```sh
    cd veiculos-api
 
+
 Instale as dependências:
-   ```sh
+
    npm install
 
 Execute o projeto:
-    ```bash
-npm start
+
+   npm start
 
 A API estará disponível em http://localhost:8080.
 
@@ -56,19 +56,21 @@ Este guia explicará como configurar e executar o projeto utilizando Docker. Cer
 
 1. Configure o Contêiner do Banco de Dados
 O projeto usa um banco de dados MySQL. Você pode configurar e executar o banco de dados em um contêiner Docker com o seguinte comando:
-   ```bash
+   ```sh
    docker-compose up -d
 
 Isso criará um contêiner Docker MySQL usando a configuração do arquivo docker-compose.yml. 
 
 Instale as Dependências
 Agora, instale as dependências do projeto:
-   ```bash
+
+   ```sh
 npm install
 
 Execute o Projeto
 Após configurar o banco de dados e instalar as dependências:
-npm start
+   ```sh
+   npm start
 
 Lembre-se de que o banco de dados em contêiner será acessado em localhost com as configurações padrão (username: root, senha: vazia 'não ha senha'). Inicia o contêiner antes de iniciar o projeto.
 
@@ -88,17 +90,17 @@ Exemplo de uso:
 Nota: a estructura do objeto deve as seguintes caracteristicas:
 
 {
- "id": "cd99557a-8750-463e-a3fa-7f7bd9ecf37a",
- "locadora": "Movida",
- "modelo": "Virtus",
- "marca": "Volkswagen",
- "ano": 2023,
- "motor": "1.0",
- "portas": 4,
- "cambio": "Automatico",
- "ar_condicionado": true,
- "updatedAt": "2023-10-23T14:37:35.917Z",
- "createdAt": "2023-10-23T14:37:35.917Z"
+ "id": "cd99557a-8750-463e-a3fa-7f7bd9ecf37a",  
+ "locadora": "Movida",  
+ "modelo": "Virtus",  
+ "marca": "Volkswagen",  
+ "ano": 2023,  
+ "motor": "1.0",  
+ "portas": 4,  
+ "cambio": "Automatico",  
+ "ar_condicionado": true,  
+ "updatedAt": "2023-10-23T14:37:35.917Z",  
+ "createdAt": "2023-10-23T14:37:35.917Z"  
 }
 
 Atualizar um veículo pelo ID
