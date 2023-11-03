@@ -78,10 +78,14 @@ Lembre-se de que o banco de dados em contêiner será acessado em localhost com 
 Listar todos os veículos  
 Método: GET  
 Rota: /veiculos  
+Exemplo de uso:  
+http://localhost:8080/veiculos/
 
 Obter um veículo pelo ID  
 Método: GET  
-Rota: /veiculos/:id  
+Rota: /veiculos/:id 
+Exemplo de uso:  
+http://localhost:8080/veiculos/2
 
 Criar um novo veículo  
 Método: POST  
@@ -113,6 +117,8 @@ Exemplo de uso:
   "modelo": "Gol Novo",  
   "ano": 2024  
 }
+
+## Recomendo usar o insomnia para tester as rotas  
 
  Certifique-se de parar o contêiner quando não estiver mais usando o projeto:
  docker-compose down
