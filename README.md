@@ -31,22 +31,22 @@ DELETE http://localhost:8080/veiculos/id
 Siga as etapas abaixo para configurar e executar o projeto:
 
 1. Clone este repositório em sua máquina:
-```sh
- git clone https://github.com/VairtlesNehisen/Desafio_Rencars.git
-   
-```markdown
-Navegue até a pasta do projeto:
    ```sh
+git clone https://github.com/VairtlesNehisen/Desafio_Rencars.git
+
+
+Navegue até a pasta do projeto:
+    ```sh
 cd veiculos-api
 
-```markdown
+
 Instale as dependências:
-```bash
+    ```bash
 npm install
 
 Execute o projeto:
-   ```bash
-   npm start
+    ```bash
+npm start
 
 A API estará disponível em http://localhost:8080.
 
@@ -64,7 +64,8 @@ Isso criará um contêiner Docker MySQL usando a configuração do arquivo docke
 
 Instale as Dependências
 Agora, instale as dependências do projeto:
-npm install
+   ```bash
+                npm install
 
 Execute o Projeto
 Após configurar o banco de dados e instalar as dependências:
