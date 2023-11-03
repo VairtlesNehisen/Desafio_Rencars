@@ -33,13 +33,16 @@ Siga as etapas abaixo para configurar e executar o projeto:
 1. Clone este repositório em sua máquina:
    ```sh
    git clone https://github.com/VairtlesNehisen/Desafio_Rencars.git
-
+   
+```markdown
 Navegue até a pasta do projeto:
+```bash
 cd veiculos-api
 
+```markdown
 Instale as dependências:
 ```bash
-   npm install
+npm install
 
 Execute o projeto:
    ```bash
@@ -52,10 +55,10 @@ Nota: Se você preferir usar um banco de dados MySQL em um contêiner Docker, si
 Como Executar o Projeto com Docker (Opcional)
 Este guia explicará como configurar e executar o projeto utilizando Docker. Certifique-se de ter o Docker instalado em sua máquina.
 
-Configure o Contêiner do Banco de Dados
+1. Configure o Contêiner do Banco de Dados
 O projeto usa um banco de dados MySQL. Você pode configurar e executar o banco de dados em um contêiner Docker com o seguinte comando:
-
-docker-compose up -d
+   ```bash
+   docker-compose up -d
 
 Isso criará um contêiner Docker MySQL usando a configuração do arquivo docker-compose.yml. 
 
