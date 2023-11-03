@@ -74,20 +74,20 @@ Execute o Projeto
 
 Lembre-se de que o banco de dados em contêiner será acessado em localhost com as configurações padrão (username: root, senha: vazia 'não ha senha'). Inicia o contêiner antes de iniciar o projeto.
 
-## Rotas
-Listar todos os veículos
-Método: GET
-Rota: /veiculos
+## Rotas  
+Listar todos os veículos  
+Método: GET  
+Rota: /veiculos  
 
-Obter um veículo pelo ID
-Método: GET
-Rota: /veiculos/:id
+Obter um veículo pelo ID  
+Método: GET  
+Rota: /veiculos/:id  
 
-Criar um novo veículo
-Método: POST
-Rota: /veiculos
-Exemplo de uso:
-Nota: a estructura do objeto deve as seguintes caracteristicas:
+Criar um novo veículo  
+Método: POST  
+Rota: /veiculos  
+Exemplo de uso:  
+Nota: a estructura do objeto deve as seguintes caracteristicas:  
 
 {  
  "id": "cd99557a-8750-463e-a3fa-7f7bd9ecf37a",  
@@ -102,13 +102,13 @@ Nota: a estructura do objeto deve as seguintes caracteristicas:
  "updatedAt": "2023-10-23T14:37:35.917Z",  
  "createdAt": "2023-10-23T14:37:35.917Z"  
 }
+      
+Atualizar um veículo pelo ID  
+Método: PUT  
+Rota: /veiculos/:id  
+Exemplo de uso:  
 
-Atualizar um veículo pelo ID
-Método: PUT
-Rota: /veiculos/:id
-Exemplo de uso:
-
-{
+{  
   "locadora": "Movida Atualizada",  
   "modelo": "Gol Novo",  
   "ano": 2024  
