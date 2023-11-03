@@ -64,7 +64,7 @@ Isso criará um contêiner Docker MySQL usando a configuração do arquivo docke
 Instale as Dependências
 Agora, instale as dependências do projeto:
 
-   ```sh
+
 npm install
 
 Execute o Projeto
