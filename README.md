@@ -38,10 +38,12 @@ Navegue até a pasta do projeto:
 cd veiculos-api
 
 Instale as dependências:
-$ npm install
+```bash
+   npm install
 
 Execute o projeto:
-$ npm start
+   ```bash
+   npm start
 
 A API estará disponível em http://localhost:8080.
 
