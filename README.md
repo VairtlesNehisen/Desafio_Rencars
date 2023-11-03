@@ -31,12 +31,12 @@ DELETE http://localhost:8080/veiculos/id
 Siga as etapas abaixo para configurar e executar o projeto:
 
 1. Clone este repositório em sua máquina:
-   ```sh
-   git clone https://github.com/VairtlesNehisen/Desafio_Rencars.git
+```sh
+ git clone https://github.com/VairtlesNehisen/Desafio_Rencars.git
    
 ```markdown
 Navegue até a pasta do projeto:
-```bash
+   ```sh
 cd veiculos-api
 
 ```markdown
