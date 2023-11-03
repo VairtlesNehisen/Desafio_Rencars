@@ -21,11 +21,11 @@ Antes de começar, você precisa ter os seguintes softwares instalados em sua m�
 
 As seguintes rotas estão disponíveis para a API:
 
-GET http://localhost:8080/veiculos
-GET http://localhost:8080/veiculos/id
-POST http://localhost:8080/veiculos
-PUT http://localhost:8080/veiculos/id
-DELETE http://localhost:8080/veiculos/id
+GET http://localhost:8080/veiculos  
+GET http://localhost:8080/veiculos/id  
+POST http://localhost:8080/veiculos  
+PUT http://localhost:8080/veiculos/id  
+DELETE http://localhost:8080/veiculos/id  
 
 ## Como Executar
 Siga as etapas abaixo para configurar e executar o projeto:
