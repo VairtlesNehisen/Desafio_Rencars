@@ -35,16 +35,11 @@ Siga as etapas abaixo para configurar e executar o projeto:
    git clone https://github.com/VairtlesNehisen/Desafio_Rencars.git
 
 
-2. Navegue até a pasta do projeto:
-   ```sh
-   cd veiculos-api
-
-
-3. Instale as dependências:
+2. Instale as dependências:
    ```sh
    npm install
 
-4. Execute o projeto:
+3. Execute o projeto:
    ```sh
    npm start
 
